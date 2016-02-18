@@ -1,0 +1,3 @@
+What I Think is to add a functionality that permits the dubizzle user to broadcast the message about the product that he is willing to sell, to his other social accounts (example facebook, twitter, etc.) also. So that whoever is willing to purchase that item will be redirected to dubizzle's page for further processing.
+
+I am not sure whether the above mentioned functionality exist or no. I'm not used to dubizzle. 
