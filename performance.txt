@@ -1,0 +1,6 @@
+What I think is that:
+     -- By allowing the processing of more number of request concurently.
+     -- By reducing plug-in.
+     -- By reducing the image size maintaining its quality.
+     -- By reducing the latency and;
+     -- By increasing the conversion rate.
