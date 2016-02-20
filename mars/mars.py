@@ -16,8 +16,16 @@ class Mars(object):
             if os.stat(self.doc)st_size > 1:
                 return 1
         else:
-            raise FileEmptyError
+            raise Error('could not create the file')
 
     def receive():
-        pass
+        curdir = os.path.dirname(__file__)
+        if os.path.exists(os.path.join(curdir, '..'+self.doc)):
+            with open(self.doc,'r') as f:
+                my_dict = json.loads(f)
+            return my_dict
+        else:
+            raise Error('File does not exist')
+
+   
 
