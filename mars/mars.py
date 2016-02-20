@@ -7,7 +7,16 @@ class Mars(object):
         self.doc = doc
     
     def send(my_dict):
-        pass
+        
+        with open (self.doc,'w') as f:
+            json.dumps(my_dict, f)
+        
+        curdir = os.path.dirname(__file__)
+        if os.path.exists(os.path.join(curdir, '..'+self.doc)):
+            if os.stat(self.doc)st_size > 1:
+                return 1
+        else:
+            raise FileEmptyError
 
     def receive():
         pass
