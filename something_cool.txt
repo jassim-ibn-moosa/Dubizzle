@@ -1,0 +1,4 @@
+Project : Hoso
+
+Description : Hoso means broadcasting in Japaneese. This application allows users to publish a content to multiple social medias like facebook, twitter etc. in a single click. 
+The link to the github repository of the above project is https://github.com/suroorhussain/Hoso
