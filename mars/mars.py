@@ -4,7 +4,7 @@ import os
 class Mars(object):
     
     def __init__(self, doc):
-        pass
+        self.doc = doc
     
     def send(my_dict):
         pass
